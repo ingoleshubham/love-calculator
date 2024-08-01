@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="icon" href="kiss.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💖 Love Calculator 💖</h1>
+        <form id="love-form">
+            <label for="name1">Your Name:</label>
+            <input type="text" id="name1" name="name1" required>
+            <label for="name2">Partner's Name:</label>
+            <input type="text" id="name2" name="name2" required>
+            <button type="submit" class="button">Calculate Love</button>
+        </form>
+        <div id="result"></div>
+        <button id="share-button" class="button" style="display: none;">Share</button>
+        <div id="share-section" style="display: none;">
+            <div id="share-container">
+                <button id="copy-button" class="button">
+                    <!-- <img src="#" alt="Copy" class="icon">  -->
+                    Copy Link
+                </button>
+                <div id="share-link"></div>
+            </div>
+        </div>
+        <a id="whatsapp-share-button" class="button" target="_blank" style="display: none;">Share via WhatsApp</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

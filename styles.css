@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff4b5c;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 48px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff4b5c;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ff4b5c;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ff2a3b;
+    outline: none;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #ff2a3b;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #ff4b5c;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#share-section {
+    margin-top: 20px;
+    position: relative;
+}
+
+#share-container {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+#copy-button {
+    background-color: #007bff; Neutral blue color;
+    /* background-color: #c6d9ee; Neutral blue color; */
+    color: white;
+    /* color:#000; */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#copy-button:hover {
+    background-color: #0056b3; Darker shade on hover ;
+}
+
+#share-link {
+    margin-top: 10px;
+    font-size: 14px; /* Adjust font size for better visibility */
+    color: #fff;
+    word-break: break-word; /* Ensure link wraps to fit within the container */
+}
