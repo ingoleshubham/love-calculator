@@ -3,7 +3,7 @@ document.getElementById('love-form').addEventListener('submit', function(event) 
 
     const name1 = document.getElementById('name1').value.trim().toLowerCase();
     const name2 = document.getElementById('name2').value.trim().toLowerCase();
-    const specialNames = ["anokhi","ank", "dugi", "anu","alice","cristin","kristin","lisa","maithali","maze","gwen","aliza","alisa","sanam"];
+    const specialNames = ["anokhi","ank", "dugi", "anu","alice","cristin","kristin","lisa","maithali","maze","gwen","aliza","alisa","sanam","rizwana","rizu"];
     
     let matchPercentage;
 
